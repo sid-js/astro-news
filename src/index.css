@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  min-height: 100vh;
+  background: rgb(2, 5, 29);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 5, 29, 1) 0%,
+    rgba(2, 7, 33, 1) 51%,
+    rgba(2, 7, 33, 1) 100%
+  );
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
